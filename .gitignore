@@ -1,0 +1,87 @@
+# -----------------------------
+#  Python Environments
+# -----------------------------
+.venv/
+venv/
+env/
+ENV/
+*.env
+*.venv
+
+# -----------------------------
+#  Python Cache / Compiled Files
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.so
+
+# -----------------------------
+#  Jupyter Notebook Artifacts
+# -----------------------------
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# -----------------------------
+#  Data Files (raw + generated)
+#  You can adjust this if you want some data tracked
+# -----------------------------
+data/
+local_data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.jsonl
+*.xlsx
+*.zip
+*.gz
+
+# -----------------------------
+#  Logs / Temp Files
+# -----------------------------
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# -----------------------------
+#  Machine Learning Artifacts
+# -----------------------------
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pickle
+
+# -----------------------------
+#  VS Code / Codespaces
+# -----------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# -----------------------------
+#  Build / Packaging
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -----------------------------
+#  OS / Editor Junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
